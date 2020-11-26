@@ -14,6 +14,11 @@ import javax.sql.DataSource;
 @RequestMapping("/zk/config")
 public class zkConfigController {
 
+    /**
+     * 主要的逻辑在ZkConfig配置中，项目的说明和问题写在了README.md文件中，
+     * 烦请老师帮忙解答一下疑问，谢谢！
+     */
+
     @Autowired
     private ZkClient zkClient;
 
